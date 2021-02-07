@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 1500px;
+  height: 500px;
+  background-color: #b4f9fe;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table {
+  background: black;
+  width: 1118px;
+  height: 19px;
+  position: absolute;
+  top: 370px;
+  left: 202px;
+  border-radius: 5px;
+}
+
+.tableLegLeft {
+  background: black;
+  width: 20px;
+  height: 111px;
+  position: absolute;
+  left: 41px;
+  top: 19px;
+}
+
+.tableLegRight {
+  background: black;
+  width: 20px;
+  height: 111px;
+  position: absolute;
+  right: 41px;
+  top: 19px;
+}
