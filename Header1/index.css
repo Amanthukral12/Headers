@@ -1,6 +1,10 @@
 * {
   margin: 0;
 }
+
+.body {
+  background: white;
+}
 .container {
   width: 1500px;
   height: 500px;
@@ -37,4 +41,39 @@
   position: absolute;
   right: 41px;
   top: 19px;
+}
+
+.speaker1 {
+  background: white;
+  width: 80px;
+  height: 120px;
+  position: absolute;
+  top: 250px;
+  left: 370px;
+  box-sizing: border-box;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.smallCircle {
+  width: 25px;
+  height: 25px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: 22px;
+}
+
+.bigCircle {
+  width: 26px;
+  height: 25px;
+  background: #e5e5e5;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
