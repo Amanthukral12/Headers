@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+}
+
+.body {
+  background: white;
+}
+.container {
+  width: 1500px;
+  height: 500px;
+  background: linear-gradient(
+    to right,
+    #e1a2b8 0.11%,
+    #e0a0b8 44.8%,
+    #9f2bc1 99.88%,
+    rgba(159, 43, 193, 0) 99.89%
+  );
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock {
+  position: absolute;
+  top: 72px;
+  left: 207px;
+  width: 142px;
+  height: 142px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid #000000;
+}
+
+.time12 {
+  position: absolute;
+  top: 0px;
+  left: 58px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.time3 {
+  position: absolute;
+  top: 57px;
+  left: 123px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.time6 {
+  position: absolute;
+  top: 114px;
+  left: 61px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.time9 {
+  position: absolute;
+  top: 57px;
+  left: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hourHand {
+  position: absolute;
+  width: 5px;
+  height: 40px;
+  background-color: #000000;
+  transform: rotate(90deg);
+  left: 85px;
+  top: 45px;
+}
+
+.minuteHand {
+  position: absolute;
+  width: 5px;
+  height: 49px;
+  background-color: #000000;
+  left: 65px;
+  top: 17px;
+}
+
+.table {
+  background: black;
+  width: 1118px;
+  height: 19px;
+  position: absolute;
+  top: 370px;
+  left: 202px;
+  border-radius: 5px;
+}
+
+.tableLegLeft {
+  background: black;
+  width: 20px;
+  height: 111px;
+  position: absolute;
+  left: 41px;
+  top: 19px;
+}
+
+.tableLegRight {
+  background: black;
+  width: 20px;
+  height: 111px;
+  position: absolute;
+  right: 41px;
+  top: 19px;
+}
+
+.speaker1 {
+  background: white;
+  width: 80px;
+  height: 120px;
+  position: absolute;
+  top: 250px;
+  left: 370px;
+  box-sizing: border-box;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.smallCircle {
+  width: 25px;
+  height: 25px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: 22px;
+}
+
+.bigCircle {
+  width: 26px;
+  height: 25px;
+  background: #e5e5e5;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.computer {
+  position: absolute;
+  width: 483px;
+  height: 203px;
+  background: #fffdfd;
+  border: 8px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  top: 112px;
+  left: 519px;
+}
+
+.screenText {
+  position: absolute;
+  top: 37px;
+  left: 43px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 112.5px;
+  color: #fe1212;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.stand {
+  position: absolute;
+  top: 315px;
+  left: 750px;
+  width: 20px;
+  height: 55px;
+  background: #000000;
+}
+
+.standBase {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  top: 362px;
+  left: 693px;
+  border-radius: 20px;
+  background: #000000;
+}
+
+.speaker2 {
+  background: white;
+  width: 80px;
+  height: 120px;
+  position: absolute;
+  top: 250px;
+  left: 1071px;
+  box-sizing: border-box;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.smallCircle1 {
+  width: 25px;
+  height: 25px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: 22px;
+}
+
+.bigCircle1 {
+  width: 26px;
+  height: 25px;
+  background: #e5e5e5;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
